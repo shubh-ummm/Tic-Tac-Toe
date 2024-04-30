@@ -1,0 +1,25 @@
+.box{
+    background-color: white;
+    border: none;
+    color: black;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.x{
+    color: rgb(255, 70, 37);
+}
+
+.o{
+    color: rgb(44, 135, 255);
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,4rem);
+    column-gap: 5px;
+    row-gap: 5px;
+}
